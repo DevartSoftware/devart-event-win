@@ -1,0 +1,15 @@
+{
+	"name": "devart-event-win",
+	"version": "0.0.1",
+	"description": "get windows event",
+	"main": "index.js",
+	"scripts": {
+    		"build": "node-gyp rebuild",
+    		"clean": "node-gyp clean",
+	},
+	"author": "AlexP",
+	"dependencies": {
+		"node-addon-api": "^4.2.0",
+		"node-gyp": "^8.4.1"
+	}
+}
