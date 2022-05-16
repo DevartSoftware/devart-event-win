@@ -63,7 +63,7 @@ void Start(const Napi::CallbackInfo &info)
 		return;
 	}
 
-	ShutdownBlockReasonCreate((HWND)hWndMain, L"App still running");
+	ShutdownBlockReasonCreate((HWND)hWndMain, L"Timer stops. Please wait...");
 	SetProcessShutdownParameters(0x290, 0);
 
 	tsfn = Napi::ThreadSafeFunction::New(
